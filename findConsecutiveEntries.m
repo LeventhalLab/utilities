@@ -6,7 +6,9 @@ function streakBorders = findConsecutiveEntries(x)
 %	x - vector of booleans
 %
 % OUTPUTS
-%
+%   streakBorders - length(x) x 2 array. The first column contains
+%       indices where each streak of true values starts; the second column
+%       contains indices where each streak of true values ends
 
 % make sure x is a column vector
 if isrow(x)
