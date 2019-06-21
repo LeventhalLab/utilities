@@ -1,0 +1,15 @@
+function subTable = findSubTable(tableIn,varargin)
+
+numCategories = (nargin - 1) / 2;
+
+for i_cat = 1 : numCategories
+    
+    catName_idx = (i_cat * 2) - 1;
+    catValue_idx = i_cat * 2;
+    
+    currentCat = varargin{catName_idx};
+    currentVal = varargin{catValue_idx};
+    
+    currentValLi
+
+'Virus','arch','laserTiming','during reach');
